@@ -1,98 +1,316 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Aryan Atul Bhutkar — BBA student resume website">
-  <title>Aryan Atul Bhutkar | Resume</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Aryan Atul Bhutkar, BBA LL.B. student at IIM Rohtak.">
+    <title>Aryan Atul Bhutkar | Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="site-header" id="top">
-  <nav class="nav container" aria-label="Main navigation">
-    <a class="brand" href="#top">AB<span>.</span></a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li><li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
-      <li><a class="nav-cta" href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <section class="hero container">
-    <div>
-      <p class="eyebrow">BBA STUDENT · ASPIRING BUSINESS PROFESSIONAL</p>
-      <h1>Hello, I'm<br><span>Aryan Atul Bhutkar.</span></h1>
-      <p class="lead">A curious business student at IIM Rohtak, interested in management, finance, marketing and learning through practical projects.</p>
-      <div class="actions"><a class="button" href="#projects">Explore my work</a><a class="simple-link" href="#contact">Get in touch ↗</a></div>
-      <p class="availability"><i></i> Open to learning opportunities</p>
-    </div>
-    <div class="photo-wrap">
-      <div class="photo-frame"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=720&q=85" alt="Sample profile portrait — replace with your own photo"></div>
-      <p class="photo-caption">Curious mind. Practical ideas.</p>
-    </div>
-  </section>
 
-  <section class="section container" id="about">
-    <div class="section-title"><p class="eyebrow">A LITTLE INTRODUCTION</p><h2>About <em>me</em></h2></div>
-    <div class="about-grid">
-      <p class="about-copy">I am an undergraduate BBA student at IIM Rohtak. I am building a strong foundation in business concepts and developing my communication, analytical and digital skills. I enjoy exploring new ideas, working with others and learning how classroom concepts apply to real-world situations.</p>
-      <aside class="facts">
-        <div><small>Based in</small><strong>India</strong></div>
-        <div><small>Programme</small><strong>Bachelor of Business Administration</strong></div>
-        <div><small>Institution</small><strong>IIM Rohtak</strong></div>
-      </aside>
-    </div>
-  </section>
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Aryan<span>.</span></a>
 
-  <section class="section tinted" id="education">
-    <div class="container">
-      <div class="section-title"><p class="eyebrow">MY LEARNING JOURNEY</p><h2>Education</h2></div>
-      <article class="timeline">
-        <div class="date">Currently pursuing</div>
-        <div><h3>Bachelor of Business Administration (BBA)</h3><p class="muted">Indian Institute of Management Rohtak</p><p>Undergraduate studies covering business and management foundations.</p></div>
-      </article>
-      <article class="timeline">
-        <div class="date">Completed 2025</div>
-        <div><h3>Higher Secondary Education</h3><p class="muted">Stepping Stones High School</p><p>Completed higher secondary education in 2025.</p></div>
-      </article>
-    </div>
-  </section>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section class="section container" id="skills">
-    <div class="section-title"><p class="eyebrow">WHAT I AM DEVELOPING</p><h2>Skills &amp; strengths</h2></div>
-    <div class="cards">
-      <article class="card"><b>01</b><h3>Business knowledge</h3><p>Foundational learning in management, accounting, economics and marketing.</p></article>
-      <article class="card"><b>02</b><h3>Digital skills</h3><p>HTML, CSS, presentations and common productivity tools. Edit this list to reflect your actual skills.</p></article>
-      <article class="card"><b>03</b><h3>Personal strengths</h3><p>Communication, teamwork, time management and a willingness to learn.</p></article>
-    </div>
-    <div class="tools"><strong>Tools &amp; technologies</strong><span>HTML5</span><span>CSS3</span><span>MS Office</span><span>Google Workspace</span></div>
-  </section>
+    <main>
 
-  <section class="section tinted" id="projects">
-    <div class="container">
-      <div class="section-title"><p class="eyebrow">LEARNING BY DOING</p><h2>Projects</h2></div>
-      <div class="project-grid">
-        <article class="project"><small>01 / WEB DEVELOPMENT</small><h3>Personal Resume Website</h3><p>A single-page resume website presenting profile, education, skills and projects in a clear layout.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Flexbox</span></div></article>
-        <article class="project"><small>02 / ACADEMIC PROJECT</small><h3>Business Case Study</h3><p>Use this card to describe a real classroom assignment, its objective, your contribution and what you learned.</p><div class="tags"><span>Research</span><span>Analysis</span><span>Presentation</span></div></article>
-      </div>
-    </div>
-  </section>
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
 
-  <section class="section container" id="interests">
-    <div class="section-title"><p class="eyebrow">BEYOND THE CLASSROOM</p><h2>Interests</h2></div>
-    <p class="interests">Add your genuine hobbies, extracurricular activities, volunteering or interests here.</p>
-  </section>
-</main>
-<footer id="contact" class="footer">
-  <div class="container footer-main">
-    <div><p class="eyebrow">LET'S CONNECT</p><h2>Have an opportunity<br>or an idea to share?</h2></div>
-    <div class="contact"><a href="mailto:aryanbhutkar497@gmail.com">aryanbhutkar497@gmail.com</a><span>India</span><a href="#top">Back to top ↑</a></div>
-  </div>
-  <div class="container footer-bottom"><span>© 2026 Aryan Atul Bhutkar</span><span>Designed with HTML &amp; CSS</span></div>
-</footer>
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PERSONAL PORTFOLIO</p>
+
+                <h1>Aryan Atul <span>Bhutkar</span></h1>
+
+                <h2>BBA LL.B. Student | Aspiring Entrepreneur</h2>
+
+                <p class="hero-description">
+                    Driven by curiosity, discipline and the desire to make
+                    a meaningful impact. Exploring the worlds of business,
+                    law, mathematics, sports and leadership.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Discover My Journey</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Portrait of Aryan Atul Bhutkar">
+                <div class="image-caption">Driven by purpose. Guided by ambition.</div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2 class="section-title">My Story & Background</h2>
+
+                <div class="about-content">
+                    <p>
+                        I am Aryan Atul Bhutkar, currently pursuing an
+                        integrated BBA LL.B. programme at IIM Rohtak.
+                        I come from an agricultural background, which
+                        has shaped my appreciation for hard work,
+                        patience, consistency and perseverance.
+                    </p>
+
+                    <p>
+                        My journey has involved experiences beyond
+                        academics. From national-level Abacus achievements
+                        and Taekwondo to NDA preparation, cycling and
+                        running, I enjoy challenging myself in different
+                        fields and continuously learning.
+                    </p>
+
+                    <p>
+                        I have a keen interest in mathematics, enjoy
+                        exploring different sports and believe that
+                        stepping outside my comfort zone is an important
+                        part of personal growth.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <div class="container">
+
+                <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                <h2 class="section-title">Education</h2>
+
+                <div class="timeline">
+
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div class="timeline-card">
+                            <p class="card-label">CURRENTLY PURSUING</p>
+                            <h3>Integrated BBA LL.B.</h3>
+                            <p class="institution">Indian Institute of Management Rohtak</p>
+                            <p>
+                                Pursuing an integrated programme combining
+                                business administration and legal studies.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div class="timeline-card">
+                            <p class="card-label">COMPLETED IN 2025</p>
+                            <h3>Higher Secondary Education</h3>
+                            <p class="institution">Stepping Stones High School</p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="section achievements-section" id="achievements">
+            <div class="container">
+
+                <p class="eyebrow">MILESTONES & EXPERIENCES</p>
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="achievement-grid">
+
+                    <article class="achievement-card">
+                        <span class="achievement-number">01</span>
+                        <h3>SPI Aurangabad Selection</h3>
+                        <p>
+                            Selected to the Services Preparatory Institute,
+                            Aurangabad, through a merit-based selection
+                            process during Classes XI and XII for NDA preparation.
+                        </p>
+                    </article>
+
+                    <article class="achievement-card">
+                        <span class="achievement-number">02</span>
+                        <h3>National-Level Abacus</h3>
+                        <p>
+                            Secured ranks at the national level in Abacus
+                            for three years, reflecting numerical ability
+                            and consistent effort.
+                        </p>
+                    </article>
+
+                    <article class="achievement-card">
+                        <span class="achievement-number">03</span>
+                        <h3>State-Level Taekwondo</h3>
+                        <p>
+                            A state-level Taekwondo player with an interest
+                            in discipline, physical training and sports.
+                        </p>
+                    </article>
+
+                    <article class="achievement-card">
+                        <span class="achievement-number">04</span>
+                        <h3>Cycling & Running</h3>
+                        <p>
+                            An active cyclist who participates in different
+                            running and marathon events as part of a
+                            personal fitness journey.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+
+                <p class="eyebrow">WHAT I BRING</p>
+                <h2 class="section-title">Skills & Strengths</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <span>01</span>
+                        <h3>Leadership</h3>
+                        <p>An interest in taking initiative and guiding people towards common goals.</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>02</span>
+                        <h3>Critical Thinking</h3>
+                        <p>Enjoy analysing situations and approaching challenges thoughtfully.</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>03</span>
+                        <h3>Mathematical Interest</h3>
+                        <p>A keen interest in mathematics, numbers and problem-solving.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="section interests-section" id="interests">
+            <div class="container">
+
+                <p class="eyebrow">LIFE BEYOND THE CLASSROOM</p>
+                <h2 class="section-title">Sports, Interests & Adventures</h2>
+
+                <div class="interest-grid">
+
+                    <article class="interest-card">
+                        <h3>Sports</h3>
+                        <p>
+                            I enjoy playing a wide variety of sports and
+                            following sporting events across different disciplines.
+                        </p>
+                    </article>
+
+                    <article class="interest-card">
+                        <h3>Outdoor Adventures</h3>
+                        <p>
+                            Trekking, exploring new places and taking part
+                            in adventurous activities.
+                        </p>
+                    </article>
+
+                    <article class="interest-card">
+                        <h3>Fitness & Endurance</h3>
+                        <p>
+                            Cycling and running help me stay active and
+                            challenge my personal limits.
+                        </p>
+                    </article>
+
+                    <article class="interest-card">
+                        <h3>Mathematics</h3>
+                        <p>
+                            I enjoy numbers, logical challenges and
+                            developing analytical thinking.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Vision Section -->
+        <section class="section vision-section" id="vision">
+            <div class="container vision-content">
+
+                <p class="eyebrow">LOOKING AHEAD</p>
+                <h2 class="section-title">My Vision & Aspirations</h2>
+
+                <p>
+                    My long-term ambition is to become a successful
+                    entrepreneur and an impactful public speaker.
+                    I aspire to build meaningful ventures, develop
+                    strong leadership abilities and communicate ideas
+                    that inspire and create value.
+                </p>
+
+                <p class="vision-motto">
+                    Learn continuously. Lead confidently.
+                    Challenge limits. Create impact.
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Get in Touch</h2>
+
+            <p>
+                I am always interested in learning, connecting
+                and exploring new opportunities.
+            </p>
+
+            <a class="email-link" href="mailto:aryanbhutkar497@gmail.com">
+                aryanbhutkar497@gmail.com
+            </a>
+
+            <div class="footer-bottom">
+                <p>© 2026 Aryan Atul Bhutkar. All rights reserved.</p>
+                <a href="#home">Back to top ↑</a>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 </html>
